@@ -1,0 +1,19 @@
+#board{
+    width: 430px;
+    height: 300px;
+}
+
+#board *{
+    padding: 3px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+img.inactive{
+    pointer-events: none;
+}
